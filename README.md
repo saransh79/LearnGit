@@ -7,4 +7,4 @@ Beware of fake contributions.
 
 Add any topic related to programming, web development, app development.
 
-Show your love just by giving a star to this repo. 
+Give a ⭐, if your pull request is merged within 1 hr.
