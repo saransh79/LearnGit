@@ -1,5 +1,5 @@
 # LearnGit
-Here you can contribute for hactoberfest 2021.
+Here you can contribute for hactoberfest 2022.
 
 just commit and create pull request.
 
