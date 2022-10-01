@@ -24,7 +24,7 @@ int main()
     string s;
     cin >> s;
     ll n = s.size();
-    stack<ll> st;
+    stack<double> st;
     for (int i = 0; i < n; i++)
     {
         double a = 0, b = 0;
