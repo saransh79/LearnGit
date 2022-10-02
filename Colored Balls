@@ -1,0 +1,33 @@
+#include<bits/stdc++.h>
+#define PB push_back
+#define ll long long int
+#define MP make_pair
+#define loop(i, a, b) for (int i = a; i < b; i++)
+using namespace std;
+int main()
+{
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+    int t;
+    cin>>t;
+    //t=1;
+    while(t--)
+    {
+        int n;
+        cin>>n;
+        int a[n];
+        int r=0;
+        loop(i,0,n)
+        {
+        cin>>a[i];
+        //r+=(a[i]%2==1);
+        }
+        loop(i,1,n)
+        {
+            if(a[r]<a[i])
+            r=i;
+        }
+        cout<<r+1<<endl;
+    }
+    return 0;
+}
