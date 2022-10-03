@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS position</title>
+    <style>
+        .container{
+            border: 2px solid red;
+            background-color: cornsilk;
+            height: 2500px;
+        }
+        /* css position: static(default), relative, absolute, fixed, sticky */
+        .box {
+            border: 2px solid black;
+            height: 200px;
+            width: 200px;
+            margin: 3px;
+            display: inline-block;
+        }
+
+        #box2 {
+            /* position relative meant relative to its normal position */
+            /* position: relative;
+            top: 30px; */
+
+            /* position absolute meant relative to its parent ie.container  */
+            /* position: absolute;
+            left: 30px; */
+
+            /* position fixed meant it will remain at same position even if we scroll*/
+            /* position: fixed;
+            right: 10px;
+            bottom: 2px; */
+
+            /* position:sticky is simply stick the box to its position */
+            position: sticky;
+            top: 5px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="box" id="box1">box
+    </div>
+    <div class="box" id="box2">Chat box
+    </div>
+    <div class="box" id="box3">box
+    </div>
+    <div class="box" id="box4">box
+    </div>
+</div>
+</body>
+
+</html>
