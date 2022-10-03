@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS animations and keyframes</title>
+    <style>
+        .container{
+            background-color: burlywood;
+            
+
+        }
+        .box{
+        border: 2px solid;
+        background-color: cadetblue;
+        height: 100px;
+        width: 100px;
+        animation-name: saransh;
+        animation-duration: 2s;
+        animation-iteration-count: 2;
+
+         /* animation-fill-mode:forwards; */
+         animation-fill-mode: alternate;
+
+         /* animation-timing-function: ease-in; */
+         animation-timing-function: ease-out;
+
+         animation-direction: reverse;
+    }
+    @keyframes saransh{
+        from{
+            width: 100px;
+        }
+        to{
+            width: 500px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <p>this is a box</p>
+        </div>
+    </div>
+</body>
+</html>
