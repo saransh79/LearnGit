@@ -3,9 +3,9 @@ using namespace std;
 
 int main()
   {
-  int a,b;
-  cin>>a>>b;
-  int sum= a+b;
+  int x,b;
+  cin>>x>>b;
+  int sum= x+b;
   cout<<sum;
   return 0;
   }
