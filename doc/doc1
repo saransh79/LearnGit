@@ -1,0 +1,11 @@
+d= {
+    "i": 87,
+    "s": "sfsfsf",
+    "list": ['h',"sjhfsj",7],
+    "f": 98.9987
+}
+
+d.update({"i": 100})
+print(d.items())
+print(d.keys())
+print(d.get("list"))

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box and text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+            /* border: 2px solid; */
+            border-radius: 0px 10px 20px 10px;
+            margin: 5px;
+            padding: 10px;
+            background-color: lightpink;
+
+            box-shadow: 8px 10px lightgreen;
+            box-shadow: -5px -8px lightgreen;
+
+            /* box-shadow: Y||X||Blur-radius||spread-radius||Color */
+
+            /* blur-radius is like how much you want to blur a color. */
+            
+            /* spread-radius is used to expand a color in all directions, it do not fade the color */
+            box-shadow: 10px 10px 5px 15px lightgreen;
+
+                /* inset is used for inside shadow */
+            box-shadow: inset 5px 5px 5px 10px red;
+
+            /* for multiple shadow */
+            box-shadow: 3px 5px 3px red, 8px 10px 5px lightgreen;
+        }
+        .card h2{
+            text-shadow:2px 3px 5px green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="card" id="card1"><h2>card-1</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium facere inventore, reiciendis omnis distinctio non amet iure suscipit ipsum incidunt vero porro facilis numquam possimus velit tempore unde. Sed.</div>
+    <div class="card" id="card2"><h2>card-2</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium facere inventore, reiciendis omnis distinctio non amet iure suscipit ipsum incidunt vero porro facilis numquam possimus velit tempore unde. Sed.</div>
+    <div class="card" id="card3"><h2>card-3</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium facere inventore, reiciendis omnis distinctio non amet iure suscipit ipsum incidunt vero porro facilis numquam possimus velit tempore unde. Sed.</div>
+    <div class="card" id="card4"><h2>card-4</h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo praesentium facere inventore, reiciendis omnis distinctio non amet iure suscipit ipsum incidunt vero porro facilis numquam possimus velit tempore unde. Sed.</div>
+</div>
+</body>
+</html>
