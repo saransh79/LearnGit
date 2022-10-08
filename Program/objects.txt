@@ -1,0 +1,15 @@
+//javascript objects:
+var object_name = {
+data1: data,
+data2: data,
+data3: data
+};
+//Constructor Function
+function Worker(name,age,favChar) {
+    this.name= name;
+    this.age= age;
+    this.favChar= favChar;
+}
+var num1= new Worker("sunil", 45, 'c');
+console.log(num1.name);
+console.log(num1.age);
