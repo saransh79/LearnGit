@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="robots" content="INDEX, FOLLOW">
+   <title>forms</title>
+</head>
+
+<body>
+   <h2>Here we will make forms</h2>
+  
+   <form action="backend.php">  <!-- We add that file in action where we want to save the data of documents-->
+      <div>
+         <label for="Name"> Name: </label> <!-- we have to add the id in 'for' of label-->
+
+         <input type="text" name="MyName" id="Name">
+      </div>
+      <br>
+      <div>
+         <label for="gmail">Gmail: </label>
+         <input type="email" name="myMail" id="gmail">
+      </div>
+      <br>
+      <div>
+         Roll number: <input type="number" name="" id="">
+      </div>
+      <br>
+      <div>
+         Password: <input type="password" name="" id="">
+      </div>
+      <br>
+      <div>
+         Date: <input type="date" name="" id="">
+      </div>
+      <br>
+      <div>
+         do you like it: <input type="checkbox" name="checkbox" id="">
+      </div>
+      <br>
+      <div>
+         gender: male<input type="radio" name="mygender">
+         female: <input type="radio" name="mygender">
+      </div>
+      <br>
+      <div>
+         write something about yourself: <br> <textarea name=""></textarea>
+      </div>
+      <br>
+      <div>
+         <label for="language">In which language you are perfect: </label>
+         <select name="my lan" id="language">
+            <option value="hindi">hindi</option>
+            <option value="english">english</option>
+            <option value="french">french</option>
+            <option value="german">german</option>
+         </select>
+      </div>
+      <br>
+      <div>
+         <input type="reset" value="reset now">
+         <input type="submit" value="submit">
+      </div>
+   </form>
+   
+</body>
+
+</html>
