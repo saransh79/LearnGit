@@ -29,7 +29,10 @@ public class MergeSort {
                 j++;
             }
         }
-        
+        while(i<left.length){
+            mix[k++]=left[i++];
+        }
+
         while(j<right.length){
             mix[k++]=right[j++];
         }
