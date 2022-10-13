@@ -26,13 +26,11 @@ void print_arr(int arr[], int n) {
 		printf("%d ", arr[i]);
 }
 
-int main()
+void main()
 {
 	int arr[] = { 80, 90, 100, 40, 50, 30, 20, 70, 60, 10}, n = 10;
 
 	bubble_sort(arr, n);
 
 	print_arr(arr, n);
-
-	return 0;
 }
