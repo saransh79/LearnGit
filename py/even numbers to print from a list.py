@@ -12,5 +12,5 @@ for xy in numbers:
     if xy == 237:
         print(xy)
         break
-    elif xy%2 == 0:
+    if xy%2 == 0:
         print(xy)
