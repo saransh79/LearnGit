@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     
     int n;int c=0;
-    cout<<"enter the number which u want to check is amstrong number or not."<<endl;
+    cout<<"enter the number which u want to check is armstrong number or not."<<endl;
     cin>>n;
     
     long sum=0;
