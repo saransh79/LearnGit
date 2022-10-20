@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Page Title</title>
+    </head>
+    <style>
+    *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.slider{
+     
+     display:flex;
+     flex-wrap:nowrap;
+     
+     overflow-x: scroll;
+     overflow-y: hidden;
+              
+     height:250px;
+     margin-top:50px;
+     padding:5px 0;
+     border:1px solid #000;
+     -webkit-overflow-scrolling: touch;
+}
+
+
+.slide{
+    flex-shrink:0;
+    margin:0 5px;
+    padding-top:70px;
+    height:100%;
+    width:180px;
+    font-size:45px;
+    font-weight:bolder;
+    text-align:center;
+    border:1px solid #000;
+    background-color:orange;
+}
+    </style>
+<body>
+       
+     <div class="slider">
+         <div class="slide">1</div>
+         <div class="slide">2</div>
+         <div class="slide">3</div>
+         <div class="slide">4</div>
+         <div class="slide">5</div>
+         <div class="slide">6</div>
+         <div class="slide">7</div>
+         <div class="slide">8</div>
+         <div class="slide">9</div>
+         <div class="slide">10</div>
+     </div>
+           
+</body>
+</html>
+
